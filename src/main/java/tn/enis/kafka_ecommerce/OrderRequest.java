@@ -4,8 +4,12 @@ public class OrderRequest {
     private String orderId;
     private String product;
     private int quantity;
+    private String customerEmail;
 
     // Getters & Setters
+    public String getCustomerEmail() { return customerEmail; }
+    public void setCustomerEmail(String customerEmail) { this.customerEmail = customerEmail; }
+
     public String getOrderId() { return orderId; }
     public void setOrderId(String orderId) { this.orderId = orderId; }
 
